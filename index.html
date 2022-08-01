@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <main>
+        <h1>Jogo da Velha</h1>
+        <hr>
+        <div class="jogo">
+            <button data-i="1"></button>
+            <button data-i="2"></button>
+            <button data-i="3"></button>
+            <button data-i="4"></button>
+            <button data-i="5"></button>
+            <button data-i="6"></button>
+            <button data-i="7"></button>
+            <button data-i="8"></button>
+            <button data-i="9"></button>
+        </div>
+        <hr>
+        <h2 class="proximo-jogador"></h2>
+        <hr class="hr-estilo">
+        <section>
+            <div>
+                <table>
+                    <tr>
+                        <th colspan="3">Ganhador</th>
+                    </tr>
+                    <tr>
+                        <td>Jogador X</td>
+                        <td>Jogador O</td>
+                        <td>Empates</td>
+                    </tr>
+                    <tr>
+                        <td class="ganhador-x">0</td>
+                        <td class="ganhador-o">0</td>
+                        <td class="empatado-xd">0</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

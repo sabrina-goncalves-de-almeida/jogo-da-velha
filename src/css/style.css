@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    font-family: 'Merriweather', serif;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2e2e;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    font-weight: bold;
+    height: 3px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+}
+
+table{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid aliceblue;
+    margin: 10px;
+}
+table tr th{
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+}
+table tr td{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid aliceblue;
+}
+
+.hr-estilo{
+    margin-top: 5px;
+}
+
+.jogo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogo button{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    background: #2e2e2e;
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
